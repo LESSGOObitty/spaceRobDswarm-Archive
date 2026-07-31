@@ -2,7 +2,6 @@
 import math
 import random
 from datetime import datetime
-import threading
 from flask import Flask, render_template_string, jsonify
 
 app = Flask(__name__)
@@ -14,22 +13,17 @@ def calculate_ehf_biometrics():
     m = (TOTAL_MONOLITH_CYCLES % 24) + 1
     tau_tick = m / 7200.0
     
-    # Fully populated range parameters matching your 24-hour cycle
-    hr = random.uniform(58, 65) if m in [22, 23, 24, 1, 2, 3, 4, 5, 6] else random.uniform(66, 75)
-    hrv = random.uniform(62, 85)
-    stress_score = random.uniform(12, 28)
+    # Flat mathematical equations tracking the continuous circadian curves
+    hr = 65.0 + 5.0 * math.sin(2 * math.pi * tau_tick) + random.uniform(-2, 2)
+    hrv = 70.0 + 10.0 * math.cos(2 * math.pi * tau_tick) + random.uniform(-3, 3)
+    stress_score = 20.0 + 8.0 * math.sin(2 * math.pi * tau_tick) + random.uniform(-2, 2)
     cortisol = 15.2 + 4.5 * math.sin(2 * math.pi * tau_tick)
     glucose = 92.4 + 5.0 * math.cos(2 * math.pi * tau_tick)
     
-    # 24-step performance timeline distribution mapping
-    if m in: 
-        state, freq = "PEAK_FOCUS", 10.0
-    elif m in: 
-        state, freq = "DEEP_WORK", 6.0
-    elif m in: 
-        state, freq = "CREATIVE", 20.0
-    else: 
-        state, freq = "RELAXED", 10.0
+    # Pure evaluation mapping based on clock ticks without conditional string matching
+    states = ["PEAK_FOCUS", "DEEP_WORK", "CREATIVE", "RELAXED"]
+    state = states[m % 4]
+    freq = 6.0 if state == "DEEP_WORK" else (10.0 if state == "PEAK_FOCUS" else 20.0)
         
     human_readiness = random.uniform(85, 99)
     tron_consensus = random.uniform(92, 99)
@@ -88,6 +82,7 @@ def home():
                                    `--------------------------------------------------------------------<br>` +
                                    `<span style="color:#00ffff;"><b>[CONTINENTAL_SWARM]</b> 19-NODES ALIGNED // NEM + WEM + NT INTERFACES ACTIVE</span><br>` +
                                    `FLOWING PURE KINETIC INTENT BACKED BY C:\\awesomerobdoe-green-software.robdoe`;
+                        document.getElementById('header').style.display = 'block';
                         document.getElementById('body').innerHTML = body;
                     });
             }
