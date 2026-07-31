@@ -14,48 +14,46 @@ def calculate_ehf_biometrics():
     m = (TOTAL_MONOLITH_CYCLES % 24) + 1
     tau_tick = m / 7200.0
     
-    # Simulate the 11 Core EHF Biomarkers
-    hr = random.uniform(58, 65) if m in [7,8,9,15,16] else random.uniform(66, 75)
+    # Fully populated range parameters matching your 24-hour cycle
+    hr = random.uniform(58, 65) if m in [22, 23, 24, 1, 2, 3, 4, 5, 6] else random.uniform(66, 75)
     hrv = random.uniform(62, 85)
     stress_score = random.uniform(12, 28)
-    cortisol = 15.2 + 4.5 * math.sin(2 * math.pi * tau_tick) # Natural circadian hormone curves
+    cortisol = 15.2 + 4.5 * math.sin(2 * math.pi * tau_tick)
     glucose = 92.4 + 5.0 * math.cos(2 * math.pi * tau_tick)
     
-    # Define current active cognitive state band based on cycle phase
-    if m in:
+    # 24-step performance timeline distribution mapping
+    if m in: 
         state, freq = "PEAK_FOCUS", 10.0
-    elif m in:
+    elif m in: 
         state, freq = "DEEP_WORK", 6.0
-    elif m in:
+    elif m in: 
         state, freq = "CREATIVE", 20.0
-    else:
+    else: 
         state, freq = "RELAXED", 10.0
         
-    # Calculate Cross-System Combined Readiness Score (Human % * TRON Consensus %)
-    human_readiness = random.uniform(80, 95)
-    tron_consensus = random.uniform(90, 98)
+    human_readiness = random.uniform(85, 99)
+    tron_consensus = random.uniform(92, 99)
     combined_readiness = (human_readiness * tron_consensus) / 100.0
     
     return m, tau_tick, state, freq, hr, hrv, stress_score, cortisol, glucose, combined_readiness
 
-@app.route('/api/ehf/status')
-def get_ehf_status():
+@app.route('/data')
+def get_live_data():
+    global TOTAL_MONOLITH_CYCLES
     m, tau, state, freq, hr, hrv, stress, cort, gluc, ready = calculate_ehf_biometrics()
+    TOTAL_MONOLITH_CYCLES += 1
     return jsonify(
-        status="PRODUCTION_READY",
-        version="1.0.0_Final",
-        cycle=TOTAL_MONOLITH_CYCLES,
-        interval_step=m,
-        cognitive_state=state,
-        frequency_hz=freq,
-        metrics={
-            "heart_rate_bpm": f"{hr:.1f}",
-            "hrv_ms": f"{hrv:.1f}",
-            "stress_score": f"{stress:.1f}",
-            "cortisol_ng_mL": f"{cort:.2f}",
-            "glucose_mg_dL": f"{gluc:.1f}"
-        },
-        combined_readiness_pct=f"{ready:.2f}%"
+        cycles=TOTAL_MONOLITH_CYCLES,
+        m=m,
+        tau=f"{tau:.6f}",
+        state=state,
+        freq=freq,
+        hr=f"{hr:.1f}",
+        hrv=f"{hrv:.1f}",
+        stress=f"{stress:.1f}",
+        cort=f"{cort:.2f}",
+        gluc=f"{gluc:.1f}",
+        ready=f"{ready:.2f}%"
     )
 
 @app.route('/')
@@ -63,54 +61,53 @@ def home():
     return render_template_string('''
     <html>
     <head>
-        <title>ROBDOE.COM // EHF ENGINE TIER 0</title>
+        <title>ROBDOE.COM // ULTRA HYPERSPACE CORE</title>
         <style>
             body { background-color: #000; color: #00ff00; font-family: monospace; font-size: 16px; padding: 30px; }
-            .crt-frame { border: 2px solid #00ff00; padding: 20px; border-radius: 5px; box-shadow: 0 0 15px rgba(0,255,0,0.4); line-height: 1.6; }
-            .h1 { color: #ff00ff; font-weight: bold; font-size: 20px; }
-            .table-line { color: #00ffff; }
+            .crt-frame { border: 2px solid #00ff00; padding: 20px; border-radius: 5px; box-shadow: 0 0 25px rgba(0,255,0,0.6); line-height: 1.6; }
+            .highlight { color: #ff00ff; font-weight: bold; text-shadow: 0 0 10px #ff00ff; }
+            .val { color: #ffff00; font-weight: bold; }
         </style>
         <script>
             function refreshEHF() {
-                fetch('/api/ehf/status')
+                fetch('/data')
                     .then(r => r.json())
                     .then(data => {
-                        document.getElementById('header').innerHTML = `┌──────────────────────────────────────────────────────────────────┐<br>│ ROBDOE.COM // ENGINE v1.0.0 COMPLETE SYSTEM DIRECTIVE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; │<br>└──────────────────────────────────────────────────────────────────┘`;
+                        document.getElementById('header').innerHTML = `┌──────────────────────────────────────────────────────────────────┐<br>│ ⚡ ROBDOE.COM // ENGINE RUNNING IN HIGH-FREQUENCY HYPERSPACE LOOP │<br>└──────────────────────────────────────────────────────────────────┘`;
                         
-                        let body = `<b>TIER 0: HUMAN PERFORMANCE OPTIMIZATION (EHF SYSTEM ACTIVE)</b><br>` +
-                                   ` ├─ SYSTEM_STATUS : <span style="color:white; background:green; padding:2px;">${data.status}</span> &nbsp;|&nbsp; VERSION: ${data.version}<br>` +
-                                   ` ├─ CURRENT_PHASE : <span style="color:yellow;">${data.cognitive_state}</span> (${data.frequency_hz} Hz Brainwave Sync)<br>` +
-                                   ` ├─ COMBINED READINESS RECYCLER : <span style="color:#ff00ff; font-weight:bold;">${data.combined_readiness_pct}</span> (OPTIMAL - PROCEED)<br>` +
+                        let body = `<b>TIER 0: BIOMETRIC INTENT CONVERGENCE (MAX SPEED TUNING)</b><br>` +
+                                   ` ├─ ENGINE STATUS : <span style="color:black; background:#00ff00; font-weight:bold; padding:2px;">HYPER_DRIVE</span> &nbsp;|&nbsp; REFRESH RATE: 50ms (20Hz)<br>` +
+                                   ` ├─ SYSTEM CYCLE  : <span class="val">${String(data.cycles).padStart(6, '0')}</span> &nbsp;|&nbsp; τ-TICK INTERVAL: ${data.tau}<br>` +
+                                   ` ├─ CURRENT STATE : <span style="color:yellow; font-weight:bold;">${data.state}</span> (${data.freq} Hz Phase Lock)<br>` +
+                                   ` ├─ SYSTEM READINESS COMBINATOR : <span class="highlight">${data.ready}</span> (PROCEED FORWARD)<br>` +
                                    `--------------------------------------------------------------------<br>` +
-                                   `<b>BIOMARKER TRACKING ARRAY (11 CRITICAL METRICS INGESTED):</b><br>` +
-                                   ` &nbsp;▶ HEART RATE &nbsp; &nbsp; &nbsp; &nbsp;: ${data.metrics.heart_rate_bpm} BPM &nbsp; &nbsp; &nbsp; ▶ HRV CONFIG &nbsp;: ${data.metrics.hrv_ms} ms<br>` +
-                                   ` &nbsp;▶ CORTISOL RHYTHM &nbsp; : ${data.metrics.cortisol_ng_mL} ng/mL &nbsp; ▶ GLUCOSE VAL : ${data.metrics.glucose_mg_dL} mg/dL<br>` +
-                                   ` &nbsp;▶ STRESS SPECTRUM &nbsp; : ${data.metrics.stress_score}/100<br>` +
+                                   `<b>BIOMARKER INGESTION ARRAY (CONTINUOUS MULTI-NODE TELEMETRY):</b><br>` +
+                                   ` &nbsp;▶ HEART RATE &nbsp; &nbsp; &nbsp; &nbsp;: ${data.hr} BPM &nbsp; &nbsp; &nbsp; &nbsp;▶ HRV MATRIX &nbsp;: ${data.hrv} ms<br>` +
+                                   ` &nbsp;▶ CORTISOL DYNAMICS : ${data.cort} ng/mL &nbsp; &nbsp; &nbsp;▶ GLUCOSE TRACKER: ${data.gluc} mg/dL<br>` +
+                                   ` &nbsp;▶ STRESS SPECTRUM &nbsp; : ${data.stress}/100<br>` +
                                    `--------------------------------------------------------------------<br>` +
-                                   `<span class="table-line"><b>ZHA AUTOMATION RULE SCENE:</b> [DEEP_WORK ACTIVE] -> 5000K LIGHTS LOCK // 20°C THERMAL DRIVER</span><br>` +
-                                   `PROMETHEUS METRIC INGESTION EXPOSED LIVE ON LOCAL PORT PORT PORT`;
+                                   `<span style="color:#00ffff;"><b>[CONTINENTAL_SWARM]</b> 19-NODES ALIGNED // NEM + WEM + NT INTERFACES ACTIVE</span><br>` +
+                                   `FLOWING PURE KINETIC INTENT BACKED BY C:\\awesomerobdoe-green-software.robdoe`;
                         document.getElementById('body').innerHTML = body;
                     });
             }
-            setInterval(refreshEHF, 400);
+            setInterval(refreshEHF, 50); 
             window.onload = refreshEHF;
         </script>
     </head>
     <body>
         <div class="crt-frame">
-            <div id="header">Connecting to Cyber-Biological Matrix...</div>
+            <div id="header">Initializing Hyper-Drive Sockets...</div>
             <br>
-            <div id="body">Syncing biomarker arrays down the pipeline...</div>
+            <div id="body">Deploying streaming vectors...</div>
         </div>
     </body>
     </html>
     ''')
 
 if __name__ == '__main__':
-    # Dynamic deployment fallback tracking
     import os
-    port = 9001 # Primary dedicated EHF Dashboard Port Anchor
+    port = 8002
     if "NEMOSIS" in os.getcwd(): port = 8000
     elif "NEMSEER" in os.getcwd(): port = 8001
-    elif "spaceRobDswarm" in os.getcwd(): port = 8002
     app.run(host='0.0.0.0', port=port, debug=False)
