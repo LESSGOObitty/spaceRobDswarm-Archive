@@ -1,0 +1,11 @@
+﻿{
+    "Version":  "5.0-SpaceRobDswarm",
+    "Timestamp":  "2026-11-05T20:22:07+11:00",
+    "TargetRoot":  "C:\\spaceRobDswarm",
+    "MerkleRoot":  "E7AC0786668E0FF0F02B62BD04F45FF636FD82DB63B1104601C975DC005F3A67",
+    "TotalLeaves":  450,
+    "IndexType":  "RunspacePool-Multithreaded-SortedDictionary-BTree-MerkleDAG",
+    "Leaves":  [
+                   null
+               ]
+}

@@ -1,0 +1,10 @@
+﻿{
+    "Version":  "10.0-Global-Master",
+    "Timestamp":  "2026-11-05T20:27:34+11:00",
+    "GlobalMerkleRoot":  "E7AC0786668E0FF0F02B62BD04F45FF636FD82DB63B1104601C975DC005F3A67",
+    "TotalGlobalLeaves":  24217,
+    "IndexType":  "Global-SortedDictionary-BTree-MerkleDAG",
+    "Leaves":  [
+                   null
+               ]
+}

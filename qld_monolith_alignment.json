@@ -1,0 +1,138 @@
+[
+    {
+        "Node":  "folder_01",
+        "QLD_Station":  "Brisbane_Regional_Office",
+        "BOM_ID":  "040913",
+        "Lat":  -27.4679,
+        "Lon":  153.0281,
+        "LockedTag":  "tag_01"
+    },
+    {
+        "Node":  "folder_02",
+        "QLD_Station":  "Gold_Coast_Seaway",
+        "BOM_ID":  "040764",
+        "Lat":  -27.9389,
+        "Lon":  153.4278,
+        "LockedTag":  "tag_02"
+    },
+    {
+        "Node":  "folder_03",
+        "QLD_Station":  "Sunshine_Coast_Airport",
+        "BOM_ID":  "040861",
+        "Lat":  -26.6033,
+        "Lon":  153.0897,
+        "LockedTag":  "tag_03"
+    },
+    {
+        "Node":  "folder_04",
+        "QLD_Station":  "Toowoomba_Airport",
+        "BOM_ID":  "041529",
+        "Lat":  -27.5428,
+        "Lon":  151.9128,
+        "LockedTag":  "tag_04"
+    },
+    {
+        "Node":  "folder_05",
+        "QLD_Station":  "Cairns_Aero",
+        "BOM_ID":  "031011",
+        "Lat":  -16.8736,
+        "Lon":  145.7553,
+        "LockedTag":  "tag_05"
+    },
+    {
+        "Node":  "folder_06",
+        "QLD_Station":  "Townsville_Aero",
+        "BOM_ID":  "032040",
+        "Lat":  -19.2483,
+        "Lon":  146.7661,
+        "LockedTag":  "tag_06"
+    },
+    {
+        "Node":  "folder_07",
+        "QLD_Station":  "Rockhampton_Aero",
+        "BOM_ID":  "039083",
+        "Lat":  -23.3753,
+        "Lon":  150.4775,
+        "LockedTag":  "tag_07"
+    },
+    {
+        "Node":  "folder_08",
+        "QLD_Station":  "Mackay_M.O",
+        "BOM_ID":  "033119",
+        "Lat":  -21.1172,
+        "Lon":  149.2169,
+        "LockedTag":  "tag_08"
+    },
+    {
+        "Node":  "folder_09",
+        "QLD_Station":  "Bundaberg_Aero",
+        "BOM_ID":  "039128",
+        "Lat":  -24.9039,
+        "Lon":  152.3217,
+        "LockedTag":  "tag_09"
+    },
+    {
+        "Node":  "folder_10",
+        "QLD_Station":  "Gladstone_Radar",
+        "BOM_ID":  "039123",
+        "Lat":  -23.8608,
+        "Lon":  151.2628,
+        "LockedTag":  "tag_10"
+    },
+    {
+        "Node":  "folder_11",
+        "QLD_Station":  "Mount_Isa_Aero",
+        "BOM_ID":  "029127",
+        "Lat":  -20.6639,
+        "Lon":  139.4889,
+        "LockedTag":  "tag_11"
+    },
+    {
+        "Node":  "folder_12",
+        "QLD_Station":  "Longreach_Aero",
+        "BOM_ID":  "036031",
+        "Lat":  -23.4397,
+        "Lon":  144.2825,
+        "LockedTag":  "tag_12"
+    },
+    {
+        "Node":  "folder_13",
+        "QLD_Station":  "Charleville_Aero",
+        "BOM_ID":  "044021",
+        "Lat":  -26.4139,
+        "Lon":  146.2558,
+        "LockedTag":  "tag_13"
+    },
+    {
+        "Node":  "folder_14",
+        "QLD_Station":  "Roma_Airport",
+        "BOM_ID":  "043091",
+        "Lat":  -26.5453,
+        "Lon":  148.7492,
+        "LockedTag":  "tag_01"
+    },
+    {
+        "Node":  "folder_15",
+        "QLD_Station":  "Weipa_Aero",
+        "BOM_ID":  "027045",
+        "Lat":  -12.6786,
+        "Lon":  141.925,
+        "LockedTag":  "tag_02"
+    },
+    {
+        "Node":  "folder_16",
+        "QLD_Station":  "Thursday_Island",
+        "BOM_ID":  "027000",
+        "Lat":  -10.5847,
+        "Lon":  142.2186,
+        "LockedTag":  "tag_03"
+    },
+    {
+        "Node":  "folder_17",
+        "QLD_Station":  "Birdsville_Airport",
+        "BOM_ID":  "038026",
+        "Lat":  -25.8975,
+        "Lon":  139.3472,
+        "LockedTag":  "tag_04"
+    }
+]

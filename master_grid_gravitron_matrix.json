@@ -1,0 +1,138 @@
+[
+    {
+        "Node":  "folder_01",
+        "QLD_Station":  "Brisbane_Regional_Office",
+        "BOM_ID":  "040913",
+        "GridMeshCell":  "AUGM-QLD-040913-CELL_01",
+        "GravitronVector":  "GRAV_VEC_[\\gamma=(-27.4679),\\theta=(153.0281)]",
+        "LockedTag":  "tag_01"
+    },
+    {
+        "Node":  "folder_02",
+        "QLD_Station":  "Gold_Coast_Seaway",
+        "BOM_ID":  "040764",
+        "GridMeshCell":  "AUGM-QLD-040764-CELL_02",
+        "GravitronVector":  "GRAV_VEC_[\\gamma=(-27.9389),\\theta=(153.4278)]",
+        "LockedTag":  "tag_02"
+    },
+    {
+        "Node":  "folder_03",
+        "QLD_Station":  "Sunshine_Coast_Airport",
+        "BOM_ID":  "040861",
+        "GridMeshCell":  "AUGM-QLD-040861-CELL_03",
+        "GravitronVector":  "GRAV_VEC_[\\gamma=(-26.6033),\\theta=(153.0897)]",
+        "LockedTag":  "tag_03"
+    },
+    {
+        "Node":  "folder_04",
+        "QLD_Station":  "Toowoomba_Airport",
+        "BOM_ID":  "041529",
+        "GridMeshCell":  "AUGM-QLD-041529-CELL_04",
+        "GravitronVector":  "GRAV_VEC_[\\gamma=(-27.5428),\\theta=(151.9128)]",
+        "LockedTag":  "tag_04"
+    },
+    {
+        "Node":  "folder_05",
+        "QLD_Station":  "Cairns_Aero",
+        "BOM_ID":  "031011",
+        "GridMeshCell":  "AUGM-QLD-031011-CELL_05",
+        "GravitronVector":  "GRAV_VEC_[\\gamma=(-16.8736),\\theta=(145.7553)]",
+        "LockedTag":  "tag_05"
+    },
+    {
+        "Node":  "folder_06",
+        "QLD_Station":  "Townsville_Aero",
+        "BOM_ID":  "032040",
+        "GridMeshCell":  "AUGM-QLD-032040-CELL_06",
+        "GravitronVector":  "GRAV_VEC_[\\gamma=(-19.2483),\\theta=(146.7661)]",
+        "LockedTag":  "tag_06"
+    },
+    {
+        "Node":  "folder_07",
+        "QLD_Station":  "Rockhampton_Aero",
+        "BOM_ID":  "039083",
+        "GridMeshCell":  "AUGM-QLD-039083-CELL_07",
+        "GravitronVector":  "GRAV_VEC_[\\gamma=(-23.3753),\\theta=(150.4775)]",
+        "LockedTag":  "tag_07"
+    },
+    {
+        "Node":  "folder_08",
+        "QLD_Station":  "Mackay_M.O",
+        "BOM_ID":  "033119",
+        "GridMeshCell":  "AUGM-QLD-033119-CELL_08",
+        "GravitronVector":  "GRAV_VEC_[\\gamma=(-21.1172),\\theta=(149.2169)]",
+        "LockedTag":  "tag_08"
+    },
+    {
+        "Node":  "folder_09",
+        "QLD_Station":  "Bundaberg_Aero",
+        "BOM_ID":  "039128",
+        "GridMeshCell":  "AUGM-QLD-039128-CELL_09",
+        "GravitronVector":  "GRAV_VEC_[\\gamma=(-24.9039),\\theta=(152.3217)]",
+        "LockedTag":  "tag_09"
+    },
+    {
+        "Node":  "folder_10",
+        "QLD_Station":  "Gladstone_Radar",
+        "BOM_ID":  "039123",
+        "GridMeshCell":  "AUGM-QLD-039123-CELL_10",
+        "GravitronVector":  "GRAV_VEC_[\\gamma=(-23.8608),\\theta=(151.2628)]",
+        "LockedTag":  "tag_10"
+    },
+    {
+        "Node":  "folder_11",
+        "QLD_Station":  "Mount_Isa_Aero",
+        "BOM_ID":  "029127",
+        "GridMeshCell":  "AUGM-QLD-029127-CELL_11",
+        "GravitronVector":  "GRAV_VEC_[\\gamma=(-20.6639),\\theta=(139.4889)]",
+        "LockedTag":  "tag_11"
+    },
+    {
+        "Node":  "folder_12",
+        "QLD_Station":  "Longreach_Aero",
+        "BOM_ID":  "036031",
+        "GridMeshCell":  "AUGM-QLD-036031-CELL_12",
+        "GravitronVector":  "GRAV_VEC_[\\gamma=(-23.4397),\\theta=(144.2825)]",
+        "LockedTag":  "tag_12"
+    },
+    {
+        "Node":  "folder_13",
+        "QLD_Station":  "Charleville_Aero",
+        "BOM_ID":  "044021",
+        "GridMeshCell":  "AUGM-QLD-044021-CELL_13",
+        "GravitronVector":  "GRAV_VEC_[\\gamma=(-26.4139),\\theta=(146.2558)]",
+        "LockedTag":  "tag_13"
+    },
+    {
+        "Node":  "folder_14",
+        "QLD_Station":  "Roma_Airport",
+        "BOM_ID":  "043091",
+        "GridMeshCell":  "AUGM-QLD-043091-CELL_14",
+        "GravitronVector":  "GRAV_VEC_[\\gamma=(-26.5453),\\theta=(148.7492)]",
+        "LockedTag":  "tag_01"
+    },
+    {
+        "Node":  "folder_15",
+        "QLD_Station":  "Weipa_Aero",
+        "BOM_ID":  "027045",
+        "GridMeshCell":  "AUGM-QLD-027045-CELL_15",
+        "GravitronVector":  "GRAV_VEC_[\\gamma=(-12.6786),\\theta=(141.925)]",
+        "LockedTag":  "tag_02"
+    },
+    {
+        "Node":  "folder_16",
+        "QLD_Station":  "Thursday_Island",
+        "BOM_ID":  "027000",
+        "GridMeshCell":  "AUGM-QLD-027000-CELL_16",
+        "GravitronVector":  "GRAV_VEC_[\\gamma=(-10.5847),\\theta=(142.2186)]",
+        "LockedTag":  "tag_03"
+    },
+    {
+        "Node":  "folder_17",
+        "QLD_Station":  "Birdsville_Airport",
+        "BOM_ID":  "038026",
+        "GridMeshCell":  "AUGM-QLD-038026-CELL_17",
+        "GravitronVector":  "GRAV_VEC_[\\gamma=(-25.8975),\\theta=(139.3472)]",
+        "LockedTag":  "tag_04"
+    }
+]

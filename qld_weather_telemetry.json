@@ -1,0 +1,79 @@
+{
+    "Region":  "Queensland (QLD)",
+    "Observations":  [
+                         {
+                             "StationID":  "040913",
+                             "StationName":  "Brisbane_Regional",
+                             "Latitude":  -27.4679,
+                             "Longitude":  153.0281,
+                             "Temp_C":  27.2,
+                             "Humidity_Pct":  53,
+                             "Pressure_hPa":  1010,
+                             "Wind_kmh":  12,
+                             "Status":  "ONLINE_ACTIVE",
+                             "Timestamp":  "2026-08-06T19:17:36.7436401+10:00"
+                         },
+                         {
+                             "StationID":  "031011",
+                             "StationName":  "Cairns_Aero",
+                             "Latitude":  -16.8736,
+                             "Longitude":  145.7553,
+                             "Temp_C":  32.2,
+                             "Humidity_Pct":  82,
+                             "Pressure_hPa":  1013.4,
+                             "Wind_kmh":  15,
+                             "Status":  "ONLINE_ACTIVE",
+                             "Timestamp":  "2026-08-06T19:17:36.7496793+10:00"
+                         },
+                         {
+                             "StationID":  "032040",
+                             "StationName":  "Townsville_Aero",
+                             "Latitude":  -19.2483,
+                             "Longitude":  146.7661,
+                             "Temp_C":  27.5,
+                             "Humidity_Pct":  86,
+                             "Pressure_hPa":  1010.8,
+                             "Wind_kmh":  42,
+                             "Status":  "ONLINE_ACTIVE",
+                             "Timestamp":  "2026-08-06T19:17:36.7537187+10:00"
+                         },
+                         {
+                             "StationID":  "039083",
+                             "StationName":  "Rockhampton_Aero",
+                             "Latitude":  -23.3753,
+                             "Longitude":  150.4775,
+                             "Temp_C":  28.3,
+                             "Humidity_Pct":  61,
+                             "Pressure_hPa":  1015.1,
+                             "Wind_kmh":  25,
+                             "Status":  "ONLINE_ACTIVE",
+                             "Timestamp":  "2026-08-06T19:17:36.7588097+10:00"
+                         },
+                         {
+                             "StationID":  "029127",
+                             "StationName":  "Mount_Isa_Aero",
+                             "Latitude":  -20.6639,
+                             "Longitude":  139.4889,
+                             "Temp_C":  30.9,
+                             "Humidity_Pct":  71,
+                             "Pressure_hPa":  1008,
+                             "Wind_kmh":  6,
+                             "Status":  "ONLINE_ACTIVE",
+                             "Timestamp":  "2026-08-06T19:17:36.7653973+10:00"
+                         },
+                         {
+                             "StationID":  "038026",
+                             "StationName":  "Birdsville_Airport",
+                             "Latitude":  -25.8975,
+                             "Longitude":  139.3472,
+                             "Temp_C":  31.5,
+                             "Humidity_Pct":  56,
+                             "Pressure_hPa":  1014,
+                             "Wind_kmh":  34,
+                             "Status":  "ONLINE_ACTIVE",
+                             "Timestamp":  "2026-08-06T19:17:36.7719333+10:00"
+                         }
+                     ],
+    "SystemState":  "AUTONOMOUS_WEATHER_ENGINE_ONLINE",
+    "TotalNodes":  6
+}

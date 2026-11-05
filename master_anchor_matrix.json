@@ -1,0 +1,444 @@
+[
+    {
+        "TargetTag":  "tag_01",
+        "Node":  "folder_01",
+        "Anchors":  {
+                        "earth":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.052,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[E] \\otimes \\delta(m/7200) | \\gamma=0.052)"
+                                  },
+                        "water":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.075,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.075)"
+                                  },
+                        "wind":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.034,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.034)"
+                                 },
+                        "fire":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.15,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[F] \\otimes \\delta(m/7200) | \\gamma=0.15)"
+                                 }
+                    }
+    },
+    {
+        "TargetTag":  "tag_02",
+        "Node":  "folder_02",
+        "Anchors":  {
+                        "earth":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.052,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[E] \\otimes \\delta(m/7200) | \\gamma=0.052)"
+                                  },
+                        "water":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.075,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.075)"
+                                  },
+                        "wind":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.034,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.034)"
+                                 },
+                        "fire":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.15,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[F] \\otimes \\delta(m/7200) | \\gamma=0.15)"
+                                 }
+                    }
+    },
+    {
+        "TargetTag":  "tag_03",
+        "Node":  "folder_03",
+        "Anchors":  {
+                        "earth":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.052,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[E] \\otimes \\delta(m/7200) | \\gamma=0.052)"
+                                  },
+                        "water":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.075,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.075)"
+                                  },
+                        "wind":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.034,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.034)"
+                                 },
+                        "fire":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.15,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[F] \\otimes \\delta(m/7200) | \\gamma=0.15)"
+                                 }
+                    }
+    },
+    {
+        "TargetTag":  "tag_04",
+        "Node":  "folder_04",
+        "Anchors":  {
+                        "earth":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.052,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[E] \\otimes \\delta(m/7200) | \\gamma=0.052)"
+                                  },
+                        "water":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.075,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.075)"
+                                  },
+                        "wind":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.034,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.034)"
+                                 },
+                        "fire":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.15,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[F] \\otimes \\delta(m/7200) | \\gamma=0.15)"
+                                 }
+                    }
+    },
+    {
+        "TargetTag":  "tag_05",
+        "Node":  "folder_05",
+        "Anchors":  {
+                        "earth":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.052,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[E] \\otimes \\delta(m/7200) | \\gamma=0.052)"
+                                  },
+                        "water":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.075,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.075)"
+                                  },
+                        "wind":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.034,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.034)"
+                                 },
+                        "fire":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.15,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[F] \\otimes \\delta(m/7200) | \\gamma=0.15)"
+                                 }
+                    }
+    },
+    {
+        "TargetTag":  "tag_06",
+        "Node":  "folder_06",
+        "Anchors":  {
+                        "earth":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.052,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[E] \\otimes \\delta(m/7200) | \\gamma=0.052)"
+                                  },
+                        "water":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.075,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.075)"
+                                  },
+                        "wind":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.034,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.034)"
+                                 },
+                        "fire":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.15,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[F] \\otimes \\delta(m/7200) | \\gamma=0.15)"
+                                 }
+                    }
+    },
+    {
+        "TargetTag":  "tag_07",
+        "Node":  "folder_07",
+        "Anchors":  {
+                        "earth":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.052,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[E] \\otimes \\delta(m/7200) | \\gamma=0.052)"
+                                  },
+                        "water":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.075,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.075)"
+                                  },
+                        "wind":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.034,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.034)"
+                                 },
+                        "fire":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.15,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[F] \\otimes \\delta(m/7200) | \\gamma=0.15)"
+                                 }
+                    }
+    },
+    {
+        "TargetTag":  "tag_08",
+        "Node":  "folder_08",
+        "Anchors":  {
+                        "earth":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.052,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[E] \\otimes \\delta(m/7200) | \\gamma=0.052)"
+                                  },
+                        "water":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.075,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.075)"
+                                  },
+                        "wind":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.034,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.034)"
+                                 },
+                        "fire":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.15,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[F] \\otimes \\delta(m/7200) | \\gamma=0.15)"
+                                 }
+                    }
+    },
+    {
+        "TargetTag":  "tag_09",
+        "Node":  "folder_09",
+        "Anchors":  {
+                        "earth":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.052,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[E] \\otimes \\delta(m/7200) | \\gamma=0.052)"
+                                  },
+                        "water":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.075,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.075)"
+                                  },
+                        "wind":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.034,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.034)"
+                                 },
+                        "fire":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.15,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[F] \\otimes \\delta(m/7200) | \\gamma=0.15)"
+                                 }
+                    }
+    },
+    {
+        "TargetTag":  "tag_10",
+        "Node":  "folder_10",
+        "Anchors":  {
+                        "earth":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.052,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[E] \\otimes \\delta(m/7200) | \\gamma=0.052)"
+                                  },
+                        "water":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.075,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.075)"
+                                  },
+                        "wind":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.034,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.034)"
+                                 },
+                        "fire":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.15,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[F] \\otimes \\delta(m/7200) | \\gamma=0.15)"
+                                 }
+                    }
+    },
+    {
+        "TargetTag":  "tag_11",
+        "Node":  "folder_11",
+        "Anchors":  {
+                        "earth":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.052,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[E] \\otimes \\delta(m/7200) | \\gamma=0.052)"
+                                  },
+                        "water":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.075,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.075)"
+                                  },
+                        "wind":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.034,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.034)"
+                                 },
+                        "fire":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.15,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[F] \\otimes \\delta(m/7200) | \\gamma=0.15)"
+                                 }
+                    }
+    },
+    {
+        "TargetTag":  "tag_12",
+        "Node":  "folder_12",
+        "Anchors":  {
+                        "earth":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.052,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[E] \\otimes \\delta(m/7200) | \\gamma=0.052)"
+                                  },
+                        "water":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.075,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.075)"
+                                  },
+                        "wind":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.034,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.034)"
+                                 },
+                        "fire":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.15,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[F] \\otimes \\delta(m/7200) | \\gamma=0.15)"
+                                 }
+                    }
+    },
+    {
+        "TargetTag":  "tag_13",
+        "Node":  "folder_13",
+        "Anchors":  {
+                        "earth":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.052,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[E] \\otimes \\delta(m/7200) | \\gamma=0.052)"
+                                  },
+                        "water":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.075,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.075)"
+                                  },
+                        "wind":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.034,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.034)"
+                                 },
+                        "fire":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.15,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[F] \\otimes \\delta(m/7200) | \\gamma=0.15)"
+                                 }
+                    }
+    },
+    {
+        "TargetTag":  "tag_01",
+        "Node":  "folder_14",
+        "Anchors":  {
+                        "earth":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.052,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[E] \\otimes \\delta(m/7200) | \\gamma=0.052)"
+                                  },
+                        "water":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.075,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.075)"
+                                  },
+                        "wind":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.034,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.034)"
+                                 },
+                        "fire":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.15,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[F] \\otimes \\delta(m/7200) | \\gamma=0.15)"
+                                 }
+                    }
+    },
+    {
+        "TargetTag":  "tag_02",
+        "Node":  "folder_15",
+        "Anchors":  {
+                        "earth":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.052,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[E] \\otimes \\delta(m/7200) | \\gamma=0.052)"
+                                  },
+                        "water":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.075,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.075)"
+                                  },
+                        "wind":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.034,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.034)"
+                                 },
+                        "fire":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.15,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[F] \\otimes \\delta(m/7200) | \\gamma=0.15)"
+                                 }
+                    }
+    },
+    {
+        "TargetTag":  "tag_03",
+        "Node":  "folder_16",
+        "Anchors":  {
+                        "earth":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.052,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[E] \\otimes \\delta(m/7200) | \\gamma=0.052)"
+                                  },
+                        "water":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.075,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.075)"
+                                  },
+                        "wind":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.034,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.034)"
+                                 },
+                        "fire":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.15,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[F] \\otimes \\delta(m/7200) | \\gamma=0.15)"
+                                 }
+                    }
+    },
+    {
+        "TargetTag":  "tag_04",
+        "Node":  "folder_17",
+        "Anchors":  {
+                        "earth":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.052,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[E] \\otimes \\delta(m/7200) | \\gamma=0.052)"
+                                  },
+                        "water":  {
+                                      "Status":  "LOCKED",
+                                      "Wobble":  0.075,
+                                      "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.075)"
+                                  },
+                        "wind":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.034,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[W] \\otimes \\delta(m/7200) | \\gamma=0.034)"
+                                 },
+                        "fire":  {
+                                     "Status":  "LOCKED",
+                                     "Wobble":  0.15,
+                                     "Tensor":  "TeNeT_Tensor(\\Psi_[F] \\otimes \\delta(m/7200) | \\gamma=0.15)"
+                                 }
+                    }
+    }
+]

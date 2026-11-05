@@ -1,0 +1,512 @@
+[
+    {
+        "Node":  "folder_01",
+        "Station":  "Brisbane_Regional_Office",
+        "BOM_ID":  "040913",
+        "LockedTag":  "tag_01",
+        "Chakra":  "Muladhara_Root",
+        "ChakraFreq":  "396_Hz",
+        "Foundations":  {
+                            "Hydrogen_Water":  {
+                                                   "Domain":  "water",
+                                                   "Wobble":  0.075,
+                                                   "Symbol":  "H"
+                                               },
+                            "Oxygen_Wind":  {
+                                                "Domain":  "wind",
+                                                "Wobble":  0.034,
+                                                "Symbol":  "O"
+                                            },
+                            "Nitrogen_Earth":  {
+                                                   "Domain":  "earth",
+                                                   "Wobble":  0.052,
+                                                   "Symbol":  "N"
+                                               },
+                            "Carbon_Fire":  {
+                                                "Domain":  "fire",
+                                                "Wobble":  0.15,
+                                                "Symbol":  "C"
+                                            }
+                        }
+    },
+    {
+        "Node":  "folder_02",
+        "Station":  "Gold_Coast_Seaway",
+        "BOM_ID":  "040764",
+        "LockedTag":  "tag_02",
+        "Chakra":  "Svadhisthana_Sacral",
+        "ChakraFreq":  "417_Hz",
+        "Foundations":  {
+                            "Hydrogen_Water":  {
+                                                   "Domain":  "water",
+                                                   "Wobble":  0.075,
+                                                   "Symbol":  "H"
+                                               },
+                            "Oxygen_Wind":  {
+                                                "Domain":  "wind",
+                                                "Wobble":  0.034,
+                                                "Symbol":  "O"
+                                            },
+                            "Nitrogen_Earth":  {
+                                                   "Domain":  "earth",
+                                                   "Wobble":  0.052,
+                                                   "Symbol":  "N"
+                                               },
+                            "Carbon_Fire":  {
+                                                "Domain":  "fire",
+                                                "Wobble":  0.15,
+                                                "Symbol":  "C"
+                                            }
+                        }
+    },
+    {
+        "Node":  "folder_03",
+        "Station":  "Sunshine_Coast_Airport",
+        "BOM_ID":  "040861",
+        "LockedTag":  "tag_03",
+        "Chakra":  "Manipura_Solar",
+        "ChakraFreq":  "528_Hz",
+        "Foundations":  {
+                            "Hydrogen_Water":  {
+                                                   "Domain":  "water",
+                                                   "Wobble":  0.075,
+                                                   "Symbol":  "H"
+                                               },
+                            "Oxygen_Wind":  {
+                                                "Domain":  "wind",
+                                                "Wobble":  0.034,
+                                                "Symbol":  "O"
+                                            },
+                            "Nitrogen_Earth":  {
+                                                   "Domain":  "earth",
+                                                   "Wobble":  0.052,
+                                                   "Symbol":  "N"
+                                               },
+                            "Carbon_Fire":  {
+                                                "Domain":  "fire",
+                                                "Wobble":  0.15,
+                                                "Symbol":  "C"
+                                            }
+                        }
+    },
+    {
+        "Node":  "folder_04",
+        "Station":  "Toowoomba_Airport",
+        "BOM_ID":  "041529",
+        "LockedTag":  "tag_04",
+        "Chakra":  "Anahata_Heart",
+        "ChakraFreq":  "639_Hz",
+        "Foundations":  {
+                            "Hydrogen_Water":  {
+                                                   "Domain":  "water",
+                                                   "Wobble":  0.075,
+                                                   "Symbol":  "H"
+                                               },
+                            "Oxygen_Wind":  {
+                                                "Domain":  "wind",
+                                                "Wobble":  0.034,
+                                                "Symbol":  "O"
+                                            },
+                            "Nitrogen_Earth":  {
+                                                   "Domain":  "earth",
+                                                   "Wobble":  0.052,
+                                                   "Symbol":  "N"
+                                               },
+                            "Carbon_Fire":  {
+                                                "Domain":  "fire",
+                                                "Wobble":  0.15,
+                                                "Symbol":  "C"
+                                            }
+                        }
+    },
+    {
+        "Node":  "folder_05",
+        "Station":  "Cairns_Aero",
+        "BOM_ID":  "031011",
+        "LockedTag":  "tag_05",
+        "Chakra":  "Vishuddha_Throat",
+        "ChakraFreq":  "741_Hz",
+        "Foundations":  {
+                            "Hydrogen_Water":  {
+                                                   "Domain":  "water",
+                                                   "Wobble":  0.075,
+                                                   "Symbol":  "H"
+                                               },
+                            "Oxygen_Wind":  {
+                                                "Domain":  "wind",
+                                                "Wobble":  0.034,
+                                                "Symbol":  "O"
+                                            },
+                            "Nitrogen_Earth":  {
+                                                   "Domain":  "earth",
+                                                   "Wobble":  0.052,
+                                                   "Symbol":  "N"
+                                               },
+                            "Carbon_Fire":  {
+                                                "Domain":  "fire",
+                                                "Wobble":  0.15,
+                                                "Symbol":  "C"
+                                            }
+                        }
+    },
+    {
+        "Node":  "folder_06",
+        "Station":  "Townsville_Aero",
+        "BOM_ID":  "032040",
+        "LockedTag":  "tag_06",
+        "Chakra":  "Ajna_ThirdEye",
+        "ChakraFreq":  "852_Hz",
+        "Foundations":  {
+                            "Hydrogen_Water":  {
+                                                   "Domain":  "water",
+                                                   "Wobble":  0.075,
+                                                   "Symbol":  "H"
+                                               },
+                            "Oxygen_Wind":  {
+                                                "Domain":  "wind",
+                                                "Wobble":  0.034,
+                                                "Symbol":  "O"
+                                            },
+                            "Nitrogen_Earth":  {
+                                                   "Domain":  "earth",
+                                                   "Wobble":  0.052,
+                                                   "Symbol":  "N"
+                                               },
+                            "Carbon_Fire":  {
+                                                "Domain":  "fire",
+                                                "Wobble":  0.15,
+                                                "Symbol":  "C"
+                                            }
+                        }
+    },
+    {
+        "Node":  "folder_07",
+        "Station":  "Rockhampton_Aero",
+        "BOM_ID":  "039083",
+        "LockedTag":  "tag_07",
+        "Chakra":  "Sahasrara_Crown",
+        "ChakraFreq":  "963_Hz",
+        "Foundations":  {
+                            "Hydrogen_Water":  {
+                                                   "Domain":  "water",
+                                                   "Wobble":  0.075,
+                                                   "Symbol":  "H"
+                                               },
+                            "Oxygen_Wind":  {
+                                                "Domain":  "wind",
+                                                "Wobble":  0.034,
+                                                "Symbol":  "O"
+                                            },
+                            "Nitrogen_Earth":  {
+                                                   "Domain":  "earth",
+                                                   "Wobble":  0.052,
+                                                   "Symbol":  "N"
+                                               },
+                            "Carbon_Fire":  {
+                                                "Domain":  "fire",
+                                                "Wobble":  0.15,
+                                                "Symbol":  "C"
+                                            }
+                        }
+    },
+    {
+        "Node":  "folder_08",
+        "Station":  "Mackay_M.O",
+        "BOM_ID":  "033119",
+        "LockedTag":  "tag_08",
+        "Chakra":  "Muladhara_Root",
+        "ChakraFreq":  "396_Hz",
+        "Foundations":  {
+                            "Hydrogen_Water":  {
+                                                   "Domain":  "water",
+                                                   "Wobble":  0.075,
+                                                   "Symbol":  "H"
+                                               },
+                            "Oxygen_Wind":  {
+                                                "Domain":  "wind",
+                                                "Wobble":  0.034,
+                                                "Symbol":  "O"
+                                            },
+                            "Nitrogen_Earth":  {
+                                                   "Domain":  "earth",
+                                                   "Wobble":  0.052,
+                                                   "Symbol":  "N"
+                                               },
+                            "Carbon_Fire":  {
+                                                "Domain":  "fire",
+                                                "Wobble":  0.15,
+                                                "Symbol":  "C"
+                                            }
+                        }
+    },
+    {
+        "Node":  "folder_09",
+        "Station":  "Bundaberg_Aero",
+        "BOM_ID":  "039128",
+        "LockedTag":  "tag_09",
+        "Chakra":  "Svadhisthana_Sacral",
+        "ChakraFreq":  "417_Hz",
+        "Foundations":  {
+                            "Hydrogen_Water":  {
+                                                   "Domain":  "water",
+                                                   "Wobble":  0.075,
+                                                   "Symbol":  "H"
+                                               },
+                            "Oxygen_Wind":  {
+                                                "Domain":  "wind",
+                                                "Wobble":  0.034,
+                                                "Symbol":  "O"
+                                            },
+                            "Nitrogen_Earth":  {
+                                                   "Domain":  "earth",
+                                                   "Wobble":  0.052,
+                                                   "Symbol":  "N"
+                                               },
+                            "Carbon_Fire":  {
+                                                "Domain":  "fire",
+                                                "Wobble":  0.15,
+                                                "Symbol":  "C"
+                                            }
+                        }
+    },
+    {
+        "Node":  "folder_10",
+        "Station":  "Gladstone_Radar",
+        "BOM_ID":  "039123",
+        "LockedTag":  "tag_10",
+        "Chakra":  "Manipura_Solar",
+        "ChakraFreq":  "528_Hz",
+        "Foundations":  {
+                            "Hydrogen_Water":  {
+                                                   "Domain":  "water",
+                                                   "Wobble":  0.075,
+                                                   "Symbol":  "H"
+                                               },
+                            "Oxygen_Wind":  {
+                                                "Domain":  "wind",
+                                                "Wobble":  0.034,
+                                                "Symbol":  "O"
+                                            },
+                            "Nitrogen_Earth":  {
+                                                   "Domain":  "earth",
+                                                   "Wobble":  0.052,
+                                                   "Symbol":  "N"
+                                               },
+                            "Carbon_Fire":  {
+                                                "Domain":  "fire",
+                                                "Wobble":  0.15,
+                                                "Symbol":  "C"
+                                            }
+                        }
+    },
+    {
+        "Node":  "folder_11",
+        "Station":  "Mount_Isa_Aero",
+        "BOM_ID":  "029127",
+        "LockedTag":  "tag_11",
+        "Chakra":  "Anahata_Heart",
+        "ChakraFreq":  "639_Hz",
+        "Foundations":  {
+                            "Hydrogen_Water":  {
+                                                   "Domain":  "water",
+                                                   "Wobble":  0.075,
+                                                   "Symbol":  "H"
+                                               },
+                            "Oxygen_Wind":  {
+                                                "Domain":  "wind",
+                                                "Wobble":  0.034,
+                                                "Symbol":  "O"
+                                            },
+                            "Nitrogen_Earth":  {
+                                                   "Domain":  "earth",
+                                                   "Wobble":  0.052,
+                                                   "Symbol":  "N"
+                                               },
+                            "Carbon_Fire":  {
+                                                "Domain":  "fire",
+                                                "Wobble":  0.15,
+                                                "Symbol":  "C"
+                                            }
+                        }
+    },
+    {
+        "Node":  "folder_12",
+        "Station":  "Longreach_Aero",
+        "BOM_ID":  "036031",
+        "LockedTag":  "tag_12",
+        "Chakra":  "Vishuddha_Throat",
+        "ChakraFreq":  "741_Hz",
+        "Foundations":  {
+                            "Hydrogen_Water":  {
+                                                   "Domain":  "water",
+                                                   "Wobble":  0.075,
+                                                   "Symbol":  "H"
+                                               },
+                            "Oxygen_Wind":  {
+                                                "Domain":  "wind",
+                                                "Wobble":  0.034,
+                                                "Symbol":  "O"
+                                            },
+                            "Nitrogen_Earth":  {
+                                                   "Domain":  "earth",
+                                                   "Wobble":  0.052,
+                                                   "Symbol":  "N"
+                                               },
+                            "Carbon_Fire":  {
+                                                "Domain":  "fire",
+                                                "Wobble":  0.15,
+                                                "Symbol":  "C"
+                                            }
+                        }
+    },
+    {
+        "Node":  "folder_13",
+        "Station":  "Charleville_Aero",
+        "BOM_ID":  "044021",
+        "LockedTag":  "tag_13",
+        "Chakra":  "Ajna_ThirdEye",
+        "ChakraFreq":  "852_Hz",
+        "Foundations":  {
+                            "Hydrogen_Water":  {
+                                                   "Domain":  "water",
+                                                   "Wobble":  0.075,
+                                                   "Symbol":  "H"
+                                               },
+                            "Oxygen_Wind":  {
+                                                "Domain":  "wind",
+                                                "Wobble":  0.034,
+                                                "Symbol":  "O"
+                                            },
+                            "Nitrogen_Earth":  {
+                                                   "Domain":  "earth",
+                                                   "Wobble":  0.052,
+                                                   "Symbol":  "N"
+                                               },
+                            "Carbon_Fire":  {
+                                                "Domain":  "fire",
+                                                "Wobble":  0.15,
+                                                "Symbol":  "C"
+                                            }
+                        }
+    },
+    {
+        "Node":  "folder_14",
+        "Station":  "Roma_Airport",
+        "BOM_ID":  "043091",
+        "LockedTag":  "tag_01",
+        "Chakra":  "Sahasrara_Crown",
+        "ChakraFreq":  "963_Hz",
+        "Foundations":  {
+                            "Hydrogen_Water":  {
+                                                   "Domain":  "water",
+                                                   "Wobble":  0.075,
+                                                   "Symbol":  "H"
+                                               },
+                            "Oxygen_Wind":  {
+                                                "Domain":  "wind",
+                                                "Wobble":  0.034,
+                                                "Symbol":  "O"
+                                            },
+                            "Nitrogen_Earth":  {
+                                                   "Domain":  "earth",
+                                                   "Wobble":  0.052,
+                                                   "Symbol":  "N"
+                                               },
+                            "Carbon_Fire":  {
+                                                "Domain":  "fire",
+                                                "Wobble":  0.15,
+                                                "Symbol":  "C"
+                                            }
+                        }
+    },
+    {
+        "Node":  "folder_15",
+        "Station":  "Weipa_Aero",
+        "BOM_ID":  "027045",
+        "LockedTag":  "tag_02",
+        "Chakra":  "Muladhara_Root",
+        "ChakraFreq":  "396_Hz",
+        "Foundations":  {
+                            "Hydrogen_Water":  {
+                                                   "Domain":  "water",
+                                                   "Wobble":  0.075,
+                                                   "Symbol":  "H"
+                                               },
+                            "Oxygen_Wind":  {
+                                                "Domain":  "wind",
+                                                "Wobble":  0.034,
+                                                "Symbol":  "O"
+                                            },
+                            "Nitrogen_Earth":  {
+                                                   "Domain":  "earth",
+                                                   "Wobble":  0.052,
+                                                   "Symbol":  "N"
+                                               },
+                            "Carbon_Fire":  {
+                                                "Domain":  "fire",
+                                                "Wobble":  0.15,
+                                                "Symbol":  "C"
+                                            }
+                        }
+    },
+    {
+        "Node":  "folder_16",
+        "Station":  "Thursday_Island",
+        "BOM_ID":  "027000",
+        "LockedTag":  "tag_03",
+        "Chakra":  "Svadhisthana_Sacral",
+        "ChakraFreq":  "417_Hz",
+        "Foundations":  {
+                            "Hydrogen_Water":  {
+                                                   "Domain":  "water",
+                                                   "Wobble":  0.075,
+                                                   "Symbol":  "H"
+                                               },
+                            "Oxygen_Wind":  {
+                                                "Domain":  "wind",
+                                                "Wobble":  0.034,
+                                                "Symbol":  "O"
+                                            },
+                            "Nitrogen_Earth":  {
+                                                   "Domain":  "earth",
+                                                   "Wobble":  0.052,
+                                                   "Symbol":  "N"
+                                               },
+                            "Carbon_Fire":  {
+                                                "Domain":  "fire",
+                                                "Wobble":  0.15,
+                                                "Symbol":  "C"
+                                            }
+                        }
+    },
+    {
+        "Node":  "folder_17",
+        "Station":  "Birdsville_Airport",
+        "BOM_ID":  "038026",
+        "LockedTag":  "tag_04",
+        "Chakra":  "Manipura_Solar",
+        "ChakraFreq":  "528_Hz",
+        "Foundations":  {
+                            "Hydrogen_Water":  {
+                                                   "Domain":  "water",
+                                                   "Wobble":  0.075,
+                                                   "Symbol":  "H"
+                                               },
+                            "Oxygen_Wind":  {
+                                                "Domain":  "wind",
+                                                "Wobble":  0.034,
+                                                "Symbol":  "O"
+                                            },
+                            "Nitrogen_Earth":  {
+                                                   "Domain":  "earth",
+                                                   "Wobble":  0.052,
+                                                   "Symbol":  "N"
+                                               },
+                            "Carbon_Fire":  {
+                                                "Domain":  "fire",
+                                                "Wobble":  0.15,
+                                                "Symbol":  "C"
+                                            }
+                        }
+    }
+]
