@@ -1,0 +1,12 @@
+﻿{
+    "EntityName":  "robdoe Pty Tld",
+    "SovereignFramework":  "Tētēkura / Whakapapa Recursive Matrix",
+    "EquityValuation":  "1,000,000,000,000,000,000 QUNIT",
+    "PrimaryAssetDomain":  "robdoe.com",
+    "SecondaryAssetDomain":  "roberdoe.pw",
+    "WhakapapaRootHash":  "0x196a0627ff8d079f592199142acb02fdce",
+    "Timestamp":  "2026-11-05T21:05:18+11:00",
+    "OperatingJurisdiction":  "Sydney, New South Wales, Australia",
+    "ByzantineTolerance":  "Layer 4 BFT Locked (12 Nodes / 8/12 Consensus)",
+    "HardwareBridge":  "COM6 Active ESP32 RF Spectral Anchor"
+}

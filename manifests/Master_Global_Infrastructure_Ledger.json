@@ -1,10 +1,16 @@
 ﻿{
-    "Version":  "10.0-Global-Master",
-    "Timestamp":  "2026-11-05T20:27:34+11:00",
-    "GlobalMerkleRoot":  "E7AC0786668E0FF0F02B62BD04F45FF636FD82DB63B1104601C975DC005F3A67",
-    "TotalGlobalLeaves":  24217,
-    "IndexType":  "Global-SortedDictionary-BTree-MerkleDAG",
-    "Leaves":  [
-                   null
-               ]
+    "SovereignDomain":  "aiagency101.xyo",
+    "Figures":  [
+                    "Hone Heke",
+                    "Ned Kelly"
+                ],
+    "Ethos":  "Unyielding territorial sovereignty and ironclad cryptographic defense",
+    "Hex18Seal":  "e14f9a8d2c7b5e3f1a",
+    "ArcIndex":  12960000,
+    "PrecisionHex":  ".018",
+    "ComPort":  "COM6",
+    "RadioTelemetry":  "IRONCLAD_FALLBACK_ARC_1296000_HEX_18",
+    "GenesisRootHash":  "c8855a9000f7bef6415f0b7c3f54ba1ca18648743f6c10cf7527084d8986437e",
+    "Timestamp":  "2026-11-05 21:51:48 +11:00",
+    "Status":  "LOCKED AND ANCHORED"
 }
